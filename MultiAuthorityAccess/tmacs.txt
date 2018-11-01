@@ -1,0 +1,24 @@
+Overall Process:
+
+Third Party Auditor
+
+Login
+Verify dataowner details and activate account
+Verify client details and activate account
+
+Data Owner
+
+Register
+Login
+Verify the client account activation request after third party auditor activation
+Upload files(DES encryption)--->Uploaded file is encrypted using des encryption
+
+Client
+
+Register ---> registeration process user select the dataowner(we have only one data owner so send request to that dataowner)
+Login--------> Both third party auditor and dataowner accept the user request otherwise user can't login his account
+Buy Server
+View File list for data owner
+Send Key Request
+Enter key + view encrypted file only
+Enter the captcha key + view the decrypted file
